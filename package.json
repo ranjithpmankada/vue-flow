@@ -10,7 +10,7 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "lint": "turbo run lint",
-    "postinstall":"turbo run postinstall",
+    "postinstall":"turbo run build",
     "typedocs": "turbo run typedoc"
   },
   "devDependencies": {
