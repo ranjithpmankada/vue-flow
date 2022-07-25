@@ -32,7 +32,8 @@
     "prepublishOnly": "shx cp ../../README.md .",
     "release": "pnpm np",
     "postpublish": "shx rm README.md && git commit -a -m \"chore: bump version\"",
-    "test": "exit 0"
+    "test": "exit 0",
+    "postinstall": "yarn run build"
   },
   "peerDependencies": {
     "vue": "^3.2.25"
